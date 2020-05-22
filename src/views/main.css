@@ -12,3 +12,28 @@ iframe {
     border: none;
     width: 100%;
 }
+
+a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+ .grid {
+	display: flex;
+	flex-wrap: wrap;
+ }
+
+ .grid-item {
+	 text-align: center;
+	 width:  25vw;
+	 padding: 10px;
+	 display: flex;
+	 flex-direction: column;
+ }
+
+ img {
+    width: 100%;
+    height: auto;
+}
