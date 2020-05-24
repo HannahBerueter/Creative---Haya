@@ -8,6 +8,20 @@ img {
     width: auto;
 }
 
-navigation {
+navigation-link-container {
+
     display: flex;
+}
+
+navigation-container {
+    display: flex;
+    background-color: rgb(211, 217, 226);
+}
+
+nav-link {
+    font-size: 1.5em;
+    text-decoration: none !important;
+
+    margin: 0 1em;
+    line-height: 2.5em;
 }

@@ -7,18 +7,24 @@
         
         <link rel="stylesheet" type="text/css" href="../navigation/navigation.css">
         <script src="../navigation/navigation.js"></script>
+
     </head>
 
     <body>
-        <div id="navigation">
-            <ul>
-                <li><a href="../audio/audio.html">Audio</a></li>
-                <li><a href="../index/index.html">Start</a></li>
-                <li><a href="../pictures/pictures.html">Pictures</a></li>
-                <li><a href="../stream/stream.html">Stream</a></li>
-                <li><a href="../videos/video.html">Video</a></li>
-                <li><a href="../gif/gif.html">Gif</a></li>
-            </ul>
-        </div>
+        <navigation-container>
+            <img src="../../assets/photos/Logo.png">
+            <navigation-link-container>
+                <nav-link><a onclick="redirect('index')" >Index</a></nav-link>
+                <nav-link><a onclick="redirect('pictures')">Pictures</a></nav-link>
+                <nav-link><a onclick="redirect('video')">Video</a></nav-link>
+                <nav-link><a onclick="redirect('gif')">Gif</a></nav-link>
+                <nav-link><a onclick="redirect('audio')" >Audio</a></nav-link>
+                <nav-link><a onclick="redirect('stream')">Stream</a></nav-link>
+            </navigation-link-container>
+        </navigation-container>
+
+        
+        
     </body>
+
 </html>

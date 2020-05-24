@@ -13,13 +13,14 @@ iframe {
     width: 100%;
 }
 
-a{
+/* a{
 	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	}
+} */
+
  .grid {
 	display: flex;
 	flex-wrap: wrap;
