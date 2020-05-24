@@ -4,8 +4,7 @@
         <link rel="stylesheet" type="text/css" href="../main.css">
         <script src="../main.js"></script>
         
-        <link rel="stylesheet" type="text/css" href="../videos.css">
-        <script src="videos.js"></script>
+        <link rel="stylesheet" type="text/css" href="./videos.css">
     </head>
     
     <body>
@@ -20,16 +19,31 @@
                 <nav-link><a href="../stream/stream.html">Stream</a></nav-link>
             </navigation-link-container>
         </navigation-container>
-        <div class="grid">
+        <pictures-container>
             <div class="grid-item"> 
-                <video autoplay="">
-                <source src="../../assets/videos/MVI_0194.MOV" type="video/mp4">
-                <p>Ihr Browser unterstützt kein HTML5 video.</p>
-                <a href="../../assets/videos/MVI_0194.MOV">Link zum Video (mp4)</a>
-            </video>
-                <div>Moving flowers</div>
+                <video controls autoplay="">
+                    <source src="../../assets/videos/MVI_0194.MOV" type="video/mp4">
+
+                    <p>Ihr Browser unterstützt kein HTML5 video.</p>
+                    <a href="../../assets/videos/MVI_0194.MOV">Link zum Video (mp4)</a>
+                </video>
+                <div>Very fancy flowers</div>
+
              </div>
-        </div>
+
+             <div class="grid-item"> 
+                <video controls autoplay="">
+                    <source src="../../assets/videos/some-video_with-sub.mp4" type="video/mp4">
+                    <track src="../../assets/videos/some-video_english.vtt" kind="subtitles" srclang="en" label="English" default/>
+                    <track src="../../assets/videos/some-video_german.vtt" kind="subtitles" srclang="de" label="German" />
+
+                    <p>Ihr Browser unterstützt kein HTML5 video.</p>
+                    <a href="../../assets/videos/some-video_with-sub.mp4">Link zum Video (mp4)</a>
+                </video>
+                <div>Cactüs</div>
+
+             </div>
+        </pictures-container>
     </body>
 
 </html>
