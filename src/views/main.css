@@ -10,10 +10,6 @@ head, script, style, [hidden] {
 
 iframe {
     border: none;
-<<<<<<< HEAD
-	width: 100%;
-	height: 4em;
-=======
     width: 100%;
 }
 
@@ -40,5 +36,4 @@ a{
  img {
     width: 100%;
     height: auto;
->>>>>>> 94d3238fead5a51b4eaeb5cde7ee6aabd20583d5
 }
